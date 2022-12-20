@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+    - name: text printing
+      debug: msg="this is ansible-playbook1"
